@@ -18,7 +18,7 @@ Setup the required hugepages and networking configuration.
 # Hugepages allocation
 sudo sysctl -w vm.nr_hugepages=2048
 # UDP buffer sizes
-sudo sysctl -w net.core.rmem_max=62500000
+sudo sysctl -w net.core.rmem_max=625000011
 sudo sysctl -w net.core.rmem_default=62500000
 sudo sysctl -w net.core.wmem_max=62500000
 sudo sysctl -w net.core.wmem_default=62500000
