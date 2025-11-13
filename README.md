@@ -12,7 +12,7 @@ From within the `monad-bft` root directory, initialize and update submodules.
 git submodule update --init --recursive
 ```
 
-Setup the required hugepages and networking configuration.
+Setup the required hugepages and networking configuratio7
 
 ```bash
 # Hugepages allocation
