@@ -15,7 +15,7 @@ git submodule update --init --recursive
 Setup the required hugepages and networking configuration.
 
 ```bash
-# Hugepages allocation
+# Hugepages allocatio
 sudo sysctl -w vm.nr_hugepages=2048
 # UDP buffer sizes
 sudo sysctl -w net.core.rmem_max=62500000
